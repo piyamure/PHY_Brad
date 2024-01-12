@@ -102,3 +102,9 @@ def get_coords_maxf(func,pos_bool,xv,yv,zv):
     y_coords = yv[pos_bool][idx]
     z_coords = zv[pos_bool][idx]
     return np.array([x_coords,y_coords,z_coords]).T
+  
+  
+####################################################################################
+  # These functions evalue a harmonic polynomials on one or many coordinate points
+  # these are light weight functions (dont need to evalue poly of order l beforehand)
+####################################################################################
